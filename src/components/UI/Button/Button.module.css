@@ -1,0 +1,20 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4E041;
+    padding: 4px 20px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #FFE302;
+}
+
+.btn:disabled{
+    background-color: #B4B4B4;
+    color: #fff;
+}
