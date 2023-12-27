@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+    z-index: 999;
+}
+
+.container {
+    width: 100%;
+    max-width: 1054px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navigate {
+    display: flex;
+    gap: 10px;
+}
